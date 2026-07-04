@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="../fonts.css">
+	<link rel="stylesheet" href="../global.css">
+	<link rel="stylesheet" href="../desktop.css">
+</head>
+
+<body style="background-color: var(--body-color); color: var(--accent-color); margin: 0px; font-family: Geo; overflow: hidden; ">
+
+
+
+	<div id="wallpaper" class="wallpaper" style="background-image: url(../assets/imgs/stockwallpaper.png)">
+	</div>
+
+	<p style="position: absolute; margin: 5px; right: 0px">Page currently WIP.... NOTHING FOR NOW.</p>
+
+	<div class="taskbar flex" style="flex-direction: row; justify-content: flex-start">
+		<a id="startbutton" onclick="startState()" style="height: 100%">
+			<img src="../assets/imgs/icon.png" style="height: 99%">
+		</a>
+		<div class="tasks" style="width: 93%">
+		</div>
+		<div id="clock" class="flex" style="width: 7%; flex-direction: row; justify-content: flex-end">
+			<p id="date">7/4/2026</p>
+			<hr st>
+			<p id="time">12:00</p>
+		</div>
+		<script src="../javascript/clock.js"></script>
+	</div>
+
+	<div class="startwrapper">
+		<div id="startmenu" class="start starthidden">
+			<p id="startusername" style="font-size: 25px">Hello, [username]</p>
+			<hr>
+			<p style="font-size: 20px">Recently Used</p>
+		</div>
+	</div>
+	<script src="../javascript/start.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="32" height="32">
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<path id="Path 0" fill-rule="evenodd" class="s0" d="m365 20h25v50h-25zm0 175h75v50h25v25h50v25h75v25h100v25h-100v25h-75v25h-50v25h-25v50h-25v75h-25v100h-25v-100h-25v-75h-25v-50h-25v-25h-50v-75h25v-25h25v-25h25v-25h25v-25h25zm-300 125h50v25h-50zm375-250h75v25h25v25h25v50h-25v50h-25v25h-25v-25h-25v-25h25v-25h25v-50h-75v25h-50v25h-50v25h-25v25h-25v25h-25v25h-25v25h-25v50h-25v50h-25v75h50v-25h25v-25h25v25h25v25h-25v25h-50v25h-50v-25h-25v-25h-25v-75h25v-50h25v-50h25v-50h25v-25h25v-25h25v-25h25v-25h50v-25h50v-25h50zm-275 0h25v25h25v25h-25v25h-25v-25h-25v-25h25zm375 375h25v25h25v-25h25v25h-25v25h25v25h-25v-25h-25v25h-25v-25h25v-25h-25z"/>
+</svg>

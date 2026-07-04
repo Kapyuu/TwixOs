@@ -1,0 +1,74 @@
+:root {
+	--taskbar-height: 33px;
+	--startmenu-position: 49px;
+	--startmenu-hide-position: -20px
+}
+
+hr {
+	border: 1px solid var(--accent-color-2);
+margin: auto
+}
+
+.wallpaper {
+	background-size: cover;
+	background-position: center center;
+	z-index: -100;
+	position: absolute;
+	width: 100vw;
+	height: 100vh
+}
+
+.taskbar {
+	z-index: 10;
+	width: 100%;
+	height: var(--taskbar-height);
+	border-top: 2px solid var(--accent-color-2);
+	position: absolute;
+	bottom: 0px;
+	background-color: var(--body-color)
+}
+
+.taskbar > div {
+	height: 100%
+}
+
+#clock > p {
+	margin: auto
+}
+
+#clock > hr {
+	margin: auto;
+	border: 1px solid var(--accent-color-2)
+}
+
+.startwrapper {
+	position: relative;
+	overflow-x: hidden;
+	width: 200vw;
+	height: 100vh
+}
+
+.start {
+	z-index: 5;
+	position: absolute;
+	width: 300px;
+	height: 500px;
+	border: 2px solid var(--accent-color-2);
+	background-color: var(--body-color);
+	transition: .15s;
+	left: 10px;
+}
+
+.startvisible {
+	bottom: var(--startmenu-position);
+	opacity: 1
+}
+
+.starthidden {
+	bottom: var(--startmenu-hide-position);
+	opacity: 0
+}
+
+.start > p {
+	margin: 5px
+}

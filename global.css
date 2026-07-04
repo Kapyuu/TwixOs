@@ -1,0 +1,35 @@
+:root {
+	--body-color: #060212;
+	--accent-color: #dfccff;
+	--accent-color-2: #776b9c
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+
+input {
+	background-color: var(--body-color);
+	border: 2px solid var(--accent-color);
+	color: var(--accent-color);
+	font-family: Geo;
+}
+
+textarea:focus,
+input:focus {
+	outline: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+button {
+	background-color: var(--body-color);
+	border: 2px solid var(--accent-color);
+	color: var(--accent-color);
+	font-family: Geo;
+}
