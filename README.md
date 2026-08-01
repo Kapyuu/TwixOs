@@ -1,1 +1,2 @@
-https://twixos.nekoweb.org/pages/desktop.html
+https://twixos.nekoweb.org
+
